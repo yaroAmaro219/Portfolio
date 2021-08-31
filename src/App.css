@@ -11,7 +11,7 @@ body,
   padding: 0;
   min-height: 100vh;
   width: 100vw;
-  /* background-color: #1f262a; */
+  /* background-color: #e2b375; */
 }
 
 /***************** Headers & Fonts *****************/
@@ -39,6 +39,12 @@ p, a {
 a :hover {
   color: #00bac8;
 }
+
+/****************** Box Sizing ********************/
+/* 
+*, :after, :before {
+  box-sizing: ;
+} */
 
 /****************** Accent Colors ******************/
 
@@ -174,8 +180,8 @@ a :hover {
   background: 
   linear-gradient(
     150deg,
-    #00B5AD,
-    #005D7A
+    #DDAF72,
+    #AD8858
   );
 }
 
@@ -183,8 +189,8 @@ a :hover {
   background: 
   linear-gradient(
     150deg,
-    #00B5AD,
-    #005D7A
+    #DDAF72,
+    #AD8858
   );
 }
 
@@ -192,28 +198,11 @@ a :hover {
   background: 
   linear-gradient(
     150deg,
-    #00B5AD,
-    #005D7A
+    #DDAF72,
+    #AD8858
   );
 }
 
-.landing-entrepreneur {
-  background: 
-  linear-gradient(
-    150deg,
-    #00B5AD,
-    #005D7A
-  );
-}
-
-.landing-hobbyist {
-  background: 
-  linear-gradient(
-    150deg,
-    #00B5AD,
-    #005D7A
-  );
-}
 
 /****************** Landing Logo *******************/
 
@@ -389,5 +378,998 @@ a :hover {
 .desktop-nav .menu-cta {
   margin-left: 30px;
 }
+
+
+
+/***************************************************/
+/********************** PAGES **********************/
+/***************************************************/
+
+.page {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 25px;
+  overflow-y: scroll; 
+  overflow-x: hidden;
+}
+
+.page .ui.divider {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.body {
+  min-height: 30vh;
+}
+
+.about-why h3, .about-journey h3, .about-roles h3 {
+  margin: 0 auto;
+  max-width: 1080px;
+  color: white;
+  font-size: 1.5em;
+}
+
+
+.about-why p, .about-journey p, .about-roles p {
+  margin: 0 auto;
+  max-width: 920px;
+  color: white;
+  font-size: 1.1em;
+}
+
+.spacetime-page img {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+}
+
+
+/**************** Page Backgrounds *****************/
+
+
+
+.design-page  {
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.9)
+  ),
+  url(./assets/images/designer-banner-1.jpg);
+}
+
+.development-page {
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.9)
+  ),
+  url(./assets/images/developer-banner-1.jpg);
+}
+
+
+/* Cascading Background Style Necessity NOT DRY */
+
+.dynamic-page {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.development-page {
+  background-position: top center;
+}
+
+
+/********************** Hero ***********************/
+
+.hero {
+  text-align: center;
+  min-height: 18vh;
+  max-width: 1080px;
+  color: white;
+  margin: 25px auto 50px auto;
+}
+
+.hero h1 {
+  text-align: left;
+  font-size: 2em;
+  margin: 15px auto;
+}
+
+.hero h3 {
+  text-align: left;
+  margin: 15px auto;
+}
+
+.hero img {
+  max-width: calc(100% - 100px);
+  margin: 15px auto;
+  border-radius: 10px;
+}
+
+.hero p {
+  text-align: left;
+  max-width: 920px;
+  margin: 15px auto;
+  font-size: 1.1em;
+}
+
+.hero .helper-text {
+  max-width: calc(100% - 250px);
+  margin: 25px auto 0 auto;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+
+/******************* Index Pages *******************/
+
+.index {
+  max-width: 1080px;
+  margin: 25px auto;
+}
+
+.index h2 {
+  max-width: 920px;
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+
+.index p {
+  max-width: 820px;
+  margin: 0 auto;
+  font-size: 1.05em;
+}
+
+/** Index Submenu **/
+
+.submenu {
+  max-width: 1016px;
+  margin: 0 auto;
+}
+
+.submenu .ui.selection.dropdown {
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: unset;
+}
+
+.submenu .ui.selection.active.dropdown:hover {
+  border: 1px solid white;
+}
+
+.ui.secondary.inverted.pointing.menu {
+  font-size: 1.15em;
+  border-width: 0px;
+}
+
+.ui.secondary.inverted.pointing.menu .item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  transition: ease-in-out .2s;
+  -moz-transition: ease-in-out .2s;
+  -o-transition: ease-in-out .2s;
+  -webkit-transition: ease-in-out .2s;
+}
+
+.ui.secondary.inverted.pointing.menu .item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: ease-in-out .2s;
+  -moz-transition: ease-in-out .2s;
+  -o-transition: ease-in-out .2s;
+  -webkit-transition: ease-in-out .2s;
+}
+
+.ui.secondary.inverted.pointing.menu .active.item {
+  transition: ease-in-out .2s;
+  -moz-transition: ease-in-out .2s;
+  -o-transition: ease-in-out .2s;
+  -webkit-transition: ease-in-out .2s;
+}
+
+/** Index Cards **/
+
+.ui.grid>* {
+  padding: 1.75rem 2.5rem 0rem 2.5rem;
+}
+
+.project-cards {
+  text-align: left;
+}
+
+.ui.card {
+  margin-bottom: 8px;
+  z-index: 2;
+}
+
+.ui.card>.image {
+  min-height: 183px;
+  border-radius: 5px 5px 0 0;
+}
+
+.ui.card>.image>img, .ui.cards>.card>.image>img {
+  background: 
+  linear-gradient(
+    rgba(0, 93, 122, 0.8), 
+    rgba(0, 229, 187, 0.4)
+  );
+  /* url(./assets/graphics/featured.jpg); */
+  background-size: cover;
+  background-position: top center;
+  min-height: 183px;
+  padding: 20px;
+}
+
+.ui.teal.ribbon.label {
+  position: absolute;
+  top: 10px;
+  z-index: 2;
+}
+
+.ui[class*="right ribbon"].label {
+  transform: translateX(-114%);
+}
+
+.ui.card:after, .ui.cards:after {
+  display: none;
+}
+
+/** Index Card Buttons **/
+
+.ui-button-icon:hover {
+  color: unset;
+}
+
+.ui.buttons:not(.basic):not(.inverted)>.button, .ui.buttons>.ui.button:not(.basic):not(.inverted) {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.column .ui.attached.buttons, .column .ui.attached.bottom.button {
+  z-index: 1;
+  transform: translateY(-125%);
+  transition: ease-in .25s;
+}
+
+.column:hover .ui.attached.buttons, .column:hover .ui.attached.bottom.button {
+  transform: translateY(0%);
+  transition: ease-in .25s;
+}
+
+.card-meta p, .card-icon {
+  display: inline;
+}
+
+/** Development Page **/
+
+.development-page .description {
+  height: 80px;
+}
+
+/** Advocacy Page **/
+
+.advocacy-page h3 {
+  max-width: 963px;
+  margin: 25px auto;
+  color: white;
+  font-size: 1.8em;
+}
+
+.advocacy-page .content {
+  height: 160px;
+}
+
+
+/******************* Case Studies ******************/
+
+.ui.basic.modal {
+  text-align: center;
+}
+
+.casestudy-modal img {
+  max-width: 100%;
+  margin: 25px auto;
+}
+
+.ui.basic.modal>.header {
+  font-size: 2em;
+}
+
+.ui.modal>.actions {
+  text-align: center;
+}
+
+/******************* Icon Key ******************/
+
+.key-modal {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  text-align: center;
+  z-index: 3;
+}
+
+/******************* About Page ********************/
+
+
+.about-page .hero h1, .about-page .hero h3 {
+  text-align: center;
+}
+
+.about-page .hero img {
+  width: 200px;
+  border-radius: 100%;
+}
+
+.about-page .hero p {
+  text-align: left;
+}
+
+.about-why, .about-roles {
+  margin: 50px auto;
+}
+
+.about-why h3, .about-why p, .about-roles h3, .about-roles p {
+  text-align: left;
+  margin: 25px auto;
+}
+
+.about-journey, .about-roles {
+  max-width: 1080px;
+  margin: 100px auto;
+  padding: 25px;
+  background: #00bac8;
+  border: 4px solid white;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px #0F1626;
+}
+
+.about-journey h3, .about-journey p {
+  text-align: left;
+  margin: 15px auto;
+}
+
+.about-journey img {
+  float: right;
+  max-width: 350px;
+  margin: -50px 15px 0 15px;
+  border-radius: 10px;
+}
+
+.about-roles p {
+  margin: 0 auto;
+}
+
+.about-roles a {
+  color: white;
+  text-decoration: underline;
+}
+
+.about-roles-current, .about-roles-previous {
+  margin: 0 auto;
+}
+
+.vertical-timeline {
+  max-width: 1080px;
+  padding: 0;
+}
+
+.vertical-timeline::before {
+  height: calc(100% + 200px);
+  margin-top: -100px;
+}
+
+.vertical-timeline-element-date {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200 !important;
+  font-size: 1.4em !important;
+  text-transform: uppercase;
+  color: white !important;
+  opacity: 1 !important;
+}
+
+.vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
+  box-shadow: inset 0px 0px 10px #0F1626;
+}
+
+.vertical-timeline--animate .vertical-timeline-element-icon.bounce-in {
+  padding: 10px;
+}
+
+.timeline-icon::before {
+  font-size: 1.5em;
+  line-height: .9;
+  margin-left: -1px;
+}
+
+/***************** Timeline Mobile *****************/
+
+@media only screen and (min-width: 1170px) {
+  .vertical-timeline-element {
+    margin: 3em 0;
+  } 
+}
+
+@media only screen and (max-width: 1169px) {
+  .vertical-timeline {
+    margin-top: 4em;
+  }
+
+  .vertical-timeline-element {
+    margin: 4em 0;
+  } 
+
+  .vertical-timeline--animate .vertical-timeline-element-icon.bounce-in {
+    padding: 5px;
+  }
+
+  .timeline-icon::before {
+    font-size: 1em;
+    line-height: .9;
+    margin-left: 1px;
+  }
+
+  .vertical-timeline-element-date {
+    position: absolute;
+    top: -35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200 !important;
+    font-size: 1.2em !important;
+    text-transform: uppercase;
+    opacity: 1 !important;
+  }
+}
+
+
+/***************** Contact Page *****************/
+
+.contact-page .hero h1, .contact-page .hero h3 {
+  text-align: center;
+}
+
+.contact-page .hero img {
+  width: 200px;
+  border-radius: 100%;
+}
+
+.contact-body {
+  max-width: 920px;
+  margin: 25px auto;
+  text-align: right;
+}
+
+.contact-socials {
+  display: inline-flex;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 920px;
+  margin: 25px 0;
+}
+
+.contact-socials a {
+  margin: 0 5px;
+  justify-content: space-evenly;
+}
+
+.contact-socials .ui.middle.aligned.image img {
+  max-width: 100%;
+}
+
+/******************** Error Page ******************/
+
+.error-page .hero h1, .error-page .hero h3, .error-page .hero p {
+  text-align: center;
+}
+
+/***************************************************/
+/********************* FOOTER **********************/
+/***************************************************/
+
+.footer {
+  max-width: 1080px;
+  margin: 50px auto 0 auto;
+  color: white;
+  text-align: center;
+}
+
+.footer-nav {
+  margin: 25px auto;
+}
+
+.footer-nav a {
+  color: white;
+  padding: 8px 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.footer-nav a:hover{
+  color: #3dbb9f;
+}
+
+.footer-socials {
+}
+
+.footer-info {
+  max-width: 920px;
+  margin: 25px auto;
+}
+
+
+/***************************************************/
+/******************** RESPONSIVE *******************/
+/***************************************************/
+
+/***************** 1200px and up *****************/
+
+@media all and (min-width: 1200px) {
+
+}
+
+
+/***************** 1027 to 1199px *****************/
+
+@media all and (max-width: 1199px) {
+  .ui.grid>* {
+    padding: 1.6rem 1.6rem;
+  }
+}
+
+
+/***************** Over 1024px *****************/
+
+@media all and (min-width: 1024px) {
+  .hide-on-desktop {
+    display: none;
+  }
+}
+
+
+/***************** Under 1023px *****************/
+
+@media all and (max-width: 1023px) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+  /** Landing Logo **/
+
+  .header-logo img {
+    top: 4vw;
+    left: 4vw;
+  }
+
+  .landing-lettermark {
+    width: 100px;
+  }
+
+
+  /** Landing Text **/
+
+  .landing-titles {
+    padding: 3vh 3vw 0 3vw;
+  }
+
+  .landing-titles h5 {
+    display: block;
+    font-size: 1.5em;
+  }
+
+  .landing-welcome {
+    top: 26vh;
+    left: 3vw;
+  }
+
+  .landing-welcome h1 {
+    font-size: 12em;
+  }
+
+  .landing-tagline {
+    top: 36vh;
+    left: 10vw;
+    right: 10vw;
+  }
+
+  .landing-tagline h2 {
+    font-size: 3.5em;
+  }
+
+
+  /** Landing CTAs **/
+
+  .left-cta, .right-cta {
+    bottom: .5vh;
+  }
+
+  .right-cta {
+    right: 3vw;
+  }
+
+  .left-cta {
+    left: 3vw;
+  }
+
+  .right-cta h6, .left-cta h6 {
+    font-size: 1.1em;
+  }
+
+
+  /** Header **/
+
+  .header-logo {
+    float: none;
+    text-align: center;
+  }
+
+  .mobile-nav {
+    position: fixed;
+    top: 5vw;
+    right: 5vw;
+    z-index: 10;
+  }
+  
+  .mobile-nav a {
+    text-align: center;
+    display: block;
+    color: white;
+    padding: 12px 15px;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .mobile-menu {
+    width: 90vw;
+    padding: 30px 15px 15px 15px;
+    background-color: #3b6877;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px #0F1626;
+    z-index: 9;
+  }
+
+  .mobile-menu .ui.icon.button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+  .ui.mini.image {
+    margin-bottom: 25px;
+  }
+
+
+  /** Hero **/
+  
+  .hero img {
+    max-width: calc(100% - 50px);
+    margin: 25px auto;
+    border-radius: 10px;
+  }
+
+  .hero .helper-text {
+    max-width: 70%;
+  }
+
+
+  /** Indices **/
+
+  .submenu {
+    max-width: 633px;
+  }
+
+  .advocacy-body h3 {
+    max-width: 633px;
+  }
+
+  .ui.grid>* {
+    padding: 1.75rem 1.75rem;
+  }
+
+
+  /** Contact Page **/
+
+
+  /** Footer **/
+
+  .footer-nav a {
+    display: block;
+  }
+}
+
+
+/***************** Under 768px *****************/
+
+@media all and (max-width: 768px) {
+
+  .page-viewer-cards {
+    position: absolute;
+    width: calc(100vw - 10px);
+    height: calc(100vh - 45px);
+    top: 5px;
+    left: 5px;
+  }
+
+  /** Landing Logo **/
+
+  .landing-lettermark {
+    width: 100px;
+  }
+
+  /** Landing Text **/
+
+  .landing-titles {
+    padding: 2.5vh 2.5vw 0 2.5vw;
+  }
+
+  .landing-titles h5 {
+    font-size: 1.3em;
+  }
+
+
+  .landing-welcome {
+    top: 25vh;
+  }
+
+  .landing-welcome h1 {
+    font-size: 10em;
+  }
+
+  .landing-tagline {
+    top: 36vh;
+    left: 8vw;
+    right: 8vw;
+  }
+
+  .landing-tagline h2 {
+    font-size: 2.6em;
+  }
+
+  /** Landing CTAs **/
+
+  .ctas {
+    height: 5vh;
+    bottom: 5vh;
+  }
+  
+  .enter-cta {
+    width: 38%;
+    left: 31%;
+    bottom: 5vh;
+  }
+  
+  .left-cta, .right-cta {
+    bottom: .5vh;
+  }
+  
+  .right-cta {
+    right: 4vw;
+  }
+  
+  .left-cta {
+    left: 4vw;
+  }
+  
+  .enter-cta a {
+    font-size: 1em; 
+  }
+  
+  .right-cta h6, .left-cta h6 {
+    font-size: 1em;
+  }
+
+  /** Hero **/
+
+  .hero img {
+    max-width: 100%;
+    margin: 25px auto;
+    border-radius: 10px;
+  }
+
+  .hero .helper-text {
+    max-width: 80%;
+  }
+
+  /** Indices **/
+
+  .submenu {
+    max-width: 293px;
+  }
+
+  .advocacy-body h3 {
+    max-width: 293px;
+  }
+
+  /** About Page **/
+
+  .about-journey {
+    margin-top: 275px;
+  }
+
+  .about-journey img {
+    margin-top: -255px;
+  }
+
+
+  /** Contact Page **/
+
+}
+
+
+/***************** Under 480px *****************/
+
+@media all and (max-width: 480px) {
+
+  /** Landing Logo **/
+
+  .landing-lettermark {
+    width: 50px;
+  }
+
+  /** Landing Text **/
+
+  .landing-titles {
+    padding: 2vh 2vw 0 2vw;
+  }
+
+  .landing-titles h5 {
+    font-size: 1.1em;
+  }
+
+  .landing-welcome {
+    top: 23vh;
+    left: 2vw;
+  }
+
+  .landing-welcome h1 {
+    font-size: 5em;
+  }
+
+  .landing-tagline {
+    top: 31vh;
+    left: 6vw;
+    right: 6vw;
+  }
+
+  .landing-tagline h2 {
+    font-size: 1.8em;
+  }
+
+  /** Landing CTAs **/
+
+  .ctas {
+    bottom: 7vh;
+  }
+  
+  .enter-cta {
+    width: 80%;
+    left: 10%;
+    bottom: 15vh;
+  }
+  
+  .right-cta {
+    bottom: 5vh;
+    right: 5vw;
+  }
+
+  .left-cta {
+    left: 5vw;
+    bottom: 9vh;
+  }
+  
+  .enter-cta a {
+    font-size: 1em; 
+  }
+  
+  .right-cta h6, .left-cta h6 {
+    font-size: .9em;
+  }
+
+  /** Hero **/
+
+  .hero .helper-text {
+    max-width: 90%;
+  }
+
+  /** About Page **/
+
+  .about-journey img {
+    float: unset;
+  }
+
+  /** Contact Page **/
+
+}
+
+
+/***************** Under 320px *****************/
+
+@media all and (max-width: 320px) {
+
+
+  /** Landing Logo **/
+
+  .landing-lettermark {
+    width: 50px;
+  }
+
+  /** Landing Text **/
+
+  .landing-titles {
+    padding: 1.5vh 1.5vw 0 1.5vw;
+  }
+
+  .landing-titles h5 {
+    font-size: 0.9em;
+  }
+
+  .landing-welcome {
+    top: 23vh;
+    left: 2vw;
+  }
+
+  .landing-welcome h1 {
+    font-size: 4em;
+  }
+
+  .landing-tagline {
+    top: 32vh;
+    left: 6vw;
+    right: 6vw;
+  }
+
+  .landing-tagline h2 {
+    font-size: 1.2em;
+  }
+
+  /** Landing CTAs **/
+
+  .ctas {
+    bottom: 7vh;
+  }
+  
+  .enter-cta {
+    width: 80%;
+    left: 10%;
+    bottom: 16vh;
+  }
+  
+  .right-cta {
+    bottom: 5vh;
+    right: 5vw;
+  }
+
+  .left-cta {
+    left: 5vw;
+    bottom: 9vh;
+  }
+  
+  .enter-cta a {
+    font-size: 0.8em; 
+  }
+  
+  .right-cta h6, .left-cta h6 {
+    font-size: 0.8em;
+  }
+
+  /** Hero **/
+
+  .hero .helper-text {
+    max-width: 100%;
+  }
+
+  .advocacy-body h3 {
+    max-width: unset;
+  }
+
+  /** Contact **/
+
+
+}
+
+
 
 
