@@ -37,7 +37,7 @@ p, a {
 }
 
 a :hover {
-  color: #00bac8;
+  color: #AD8858;
 }
 
 /****************** Box Sizing ********************/
@@ -53,19 +53,19 @@ a :hover {
 }
 
 .keppel {
-  color: #00e5bb;
+  color: #DDAF72;
 }
 
 .sea {
-  color: #00bac8;
+  color: #DDAF72;
 }
 
 .navy {
-  color: #005d7a;
+  color: #DDAF72;
 }
 
 .gunmetal {
-  color: #2a3439;
+  color: #DDAF72;
 }
 
 
@@ -97,7 +97,7 @@ a :hover {
 }
 
 .pseudo-link:hover {
-  color: #00bac8;
+  color: #AD8858;
 }
 
 .dcursor {
@@ -338,7 +338,7 @@ a :hover {
 }
 
 .desktop-nav a:hover{
-  color: #3dbb9f;
+  color: #AD8858;
 }
 
 .header-logo {
@@ -429,6 +429,17 @@ a :hover {
 
 /**************** Page Backgrounds *****************/
 
+.static-page {
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.65), 
+    rgba(0, 0, 0, 0.85)
+  ),
+  url(./assets/images/developer-banner-1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top center;
+}
 
 
 .design-page  {
@@ -573,7 +584,7 @@ a :hover {
 /** Index Cards **/
 
 .ui.grid>* {
-  padding: 1.75rem 2.5rem 0rem 2.5rem;
+  padding: 1.75rem 2.5rem 0rem 2.5rem !important;
 }
 
 .project-cards {
@@ -593,8 +604,8 @@ a :hover {
 .ui.card>.image>img, .ui.cards>.card>.image>img {
   background: 
   linear-gradient(
-    rgba(0, 93, 122, 0.8), 
-    rgba(0, 229, 187, 0.4)
+    #AD8858, 
+    #DDAF72
   );
   /* url(./assets/graphics/featured.jpg); */
   background-size: cover;
@@ -603,7 +614,7 @@ a :hover {
   padding: 20px;
 }
 
-.ui.teal.ribbon.label {
+.ui.gold.ribbon.label {
   position: absolute;
   top: 10px;
   z-index: 2;
@@ -721,7 +732,7 @@ a :hover {
   max-width: 1080px;
   margin: 100px auto;
   padding: 25px;
-  background: #00bac8;
+  background: #DDAF72;
   border: 4px solid white;
   border-radius: 10px;
   box-shadow: inset 0px 0px 10px #0F1626;
@@ -888,7 +899,7 @@ a :hover {
 }
 
 .footer-nav a:hover{
-  color: #3dbb9f;
+  color: #DDAF72;
 }
 
 .footer-socials {
