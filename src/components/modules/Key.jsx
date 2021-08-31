@@ -45,8 +45,6 @@ const Key = () => (
           <p><Icon name='adobe' /> Adobe Photoshop</p>
           <p><Icon name='adobe' /> Adobe Illustrator</p>
           <p><Icon name='file pdf' /> Adobe InDesign</p>
-          <p><Icon name='tint' /> Color Palettes</p>
-          <p><Icon name='bolt' /> Lettermark, Logomark, & Wordmarks</p>
           <p><Icon name='images' /> Digital Deliverables</p>
           <p><Icon name='address card' /> Print Deliverables</p>
           <p><Icon name='user' /> User Flow & Journeys</p>
