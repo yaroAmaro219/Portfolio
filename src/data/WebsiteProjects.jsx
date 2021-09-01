@@ -184,6 +184,29 @@ const Websites = [
     featured: true,
     case_study: false,
 
+    name: "CoCare Community",
+    date: 'May 2020',
+    meta: 'Ruby on Rails & React',
+    tagline: 'Participated in hackton hosted by General Assembly.',
+
+    cs_intro: null,
+    cs_description: null,
+    cs_conclusion: null,
+    cs_img_1: null,
+    cs_img_2: null,
+
+    category: 'Full Stack', // Concept, Front End, Full Stack
+    progress: 'MVP', // R&D, MVP, Post-MVP, Private Beta, Live
+
+    url_to_img: `${CoCareLanding}`,
+    url_to_demo: 'http://www.cocarecommunity.com/',
+    url_to_github: 'https://github.com/yaroAmaro219/Corona-Care',
+  },
+  {
+    id: 4,
+    featured: true,
+    case_study: false,
+
     name: "OctaGo",
     date: 'July 2020',
     meta: 'Hackathon',
@@ -202,7 +225,7 @@ const Websites = [
     url_to_github: 'https://github.com/yaroAmaro219/OctaGo',
   },
   {
-    id: 4,
+    id: 3,
     featured: true,
     case_study: false,
 
@@ -222,29 +245,6 @@ const Websites = [
 
     url_to_img: `${PowerPupsLanding}`,
     url_to_github: 'https://github.com/yaroAmaro219/Powerpups',
-  },
-  {
-    id: 3,
-    featured: true,
-    case_study: false,
-
-    name: "CoCare Community",
-    date: 'May 2020',
-    meta: 'Ruby on Rails & React',
-    tagline: 'Participated in hackton hosted by General Assembly.',
-
-    cs_intro: null,
-    cs_description: null,
-    cs_conclusion: null,
-    cs_img_1: null,
-    cs_img_2: null,
-
-    category: 'Full Stack', // Concept, Front End, Full Stack
-    progress: 'MVP', // R&D, MVP, Post-MVP, Private Beta, Live
-
-    url_to_img: `${CoCareLanding}`,
-    url_to_demo: 'http://www.cocarecommunity.com/',
-    url_to_github: 'https://github.com/yaroAmaro219/Corona-Care',
   },
 ]
 

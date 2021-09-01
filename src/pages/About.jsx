@@ -14,7 +14,7 @@ import {
 // Components
 import Header from '../components/modules/Header'
 import Hero from '../components/modules/Hero'
-// import Timeline from '../components/modules/Timeline'
+import Timeline from '../components/modules/Timeline'
 import Footer from '../components/modules/Footer'
 
 import Artemie from '../assets/images/download.png'
@@ -57,6 +57,8 @@ class About extends Component {
           <p>Want to learn more about how and why I came to the path of software engineering?</p>
           <p>Understandable.</p>
         </div>
+        <Timeline />
+        <Footer/>
       </div>
     );
   }

@@ -849,7 +849,7 @@ a :hover {
 .contact-body {
   max-width: 920px;
   margin: 25px auto;
-  text-align: right;
+  text-align: center;
 }
 
 .contact-socials {
@@ -1036,7 +1036,7 @@ a :hover {
   .mobile-menu {
     width: 90vw;
     padding: 30px 15px 15px 15px;
-    background-color: #3b6877;
+    background-color: #DDAF72;
     border-radius: 10px;
     box-shadow: inset 0px 0px 10px #0F1626;
     z-index: 9;
