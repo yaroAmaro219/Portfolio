@@ -31,7 +31,7 @@ class Development extends Component {
             title: "Featured Engineering",
             tagline: "Beautiful and easy to use websites.",
             postimage: null,
-            description: "For over 3 years, I've been developing websites that inspire me and others. Initially, my passion for development came about in high school when I was first introduced to Python. Since then I have actively improved my abilities and broadend my skillset",
+            description: "For over 3 years now, I've been developing websites that inspire both myself and other. Initially, my passion for development came about in high school when I was first introduced to Python. Since then I have actively improved my abilities and broadend my skillset",
             websites: Websites,
           }
     }
