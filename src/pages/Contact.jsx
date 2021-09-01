@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import Header from '../components/modules/Header'
+import Footer from '../components/modules/Footer'
 import Hero from '../components/modules/Hero'
 
 import Artemie from '../assets/images/download.png'
@@ -36,6 +37,7 @@ class Contact extends Component {
          <div className="body contact-body">
 <h1>Hi</h1>
          </div>
+         <Footer />
       </div>
     )
   }
