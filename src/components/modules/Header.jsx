@@ -49,7 +49,6 @@ export default class Header extends Component {
                 <div className="desktop-nav hide-on-mobile">
               <Link to="/engineering" className="smooth">Engineering</Link>
               <Link to="/design" className="smooth">Design</Link>
-              {/* <Link to="/leadership" className="smooth">Leadership</Link> */}
               <Link to="/about" className="smooth">About</Link>
               <Link to="/contact" className="menu-cta smooth">Contact</Link>
             </div>
@@ -79,7 +78,6 @@ export default class Header extends Component {
                   <Image src={Logo} size="mini" centered />
                   <Link to="/engineering" className="smooth">Engineering</Link>
                   <Link to="/design" className="smooth">Design</Link>
-                  {/* <Link to="/leadership" className="smooth">Leadership</Link> */}
                   <Link to="/about" className="smooth">About</Link>
                   <Link to="/contact" className="menu-cta smooth">Contact</Link>
                 </div>

@@ -141,7 +141,7 @@ const Websites = [
     name: "GlassTop",
     date: 'Aug 2020',
     meta: 'React',
-    tagline: 'Developed a website intended for sales of converted campers.',
+    tagline: 'An online web development company.',
 
     cs_intro: null,
     cs_description: null,
@@ -187,7 +187,7 @@ const Websites = [
     name: "CoCare Community",
     date: 'May 2020',
     meta: 'Ruby on Rails & React',
-    tagline: 'Participated in hackton hosted by General Assembly.',
+    tagline: 'Participated in hackathon hosted by General Assembly.',
 
     cs_intro: null,
     cs_description: null,
@@ -210,7 +210,7 @@ const Websites = [
     name: "OctaGo",
     date: 'July 2020',
     meta: 'Hackathon',
-    tagline: 'Participated in hackton hosted by Octagon and General Assembly.',
+    tagline: 'Participated in hackathon hosted by Octagon and General Assembly.',
 
     cs_intro: null,
     cs_description: null,
@@ -232,7 +232,7 @@ const Websites = [
     name: "Power Pups",
     date: 'June 2020',
     meta: 'Ruby on Rails & React',
-    tagline: 'Participated in hackton hosted by Data Dog and General Assembly.',
+    tagline: 'Participated in hackathon hosted by Data Dog and General Assembly.',
 
     cs_intro: null,
     cs_description: null,
@@ -244,6 +244,7 @@ const Websites = [
     progress: 'MVP', // R&D, MVP, Post-MVP, Private Beta, Live
 
     url_to_img: `${PowerPupsLanding}`,
+    url_to_demo: 'http://powerpups.surge.sh/',
     url_to_github: 'https://github.com/yaroAmaro219/Powerpups',
   },
 ]

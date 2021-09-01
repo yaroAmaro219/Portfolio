@@ -49,7 +49,6 @@ const Key = () => (
           <p><Icon name='address card' /> Print Deliverables</p>
           <p><Icon name='user' /> User Flow & Journeys</p>
           <p><Icon name='handshake' /> Design Handoffs</p>
-
         </Grid.Column>
         <Grid.Column>
           <Header>Deploy</Header>
