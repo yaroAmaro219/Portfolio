@@ -1,8 +1,14 @@
 // Assets
 import TotallyTennisLanding from '../assets/graphics/TT.png'
+import TennisLanding from '../assets/graphics/Tennisnyc.png'
 import PortfolioLanding from '../assets/images/MTenn.JPG'
 import CoCareLanding from '../assets/graphics/Cocare.png'
 import PowerPupsLanding from '../assets/graphics/PowerPups.jpg'
+import TasteBuddsLanding from '../assets/graphics/Tastebudds.png'
+import AllieLanding from '../assets/graphics/Alliek.png'
+import GlassTopLanding from '../assets/graphics/Glasstop.png'
+import ConvertedCamperLanding from '../assets/graphics/Converted.png'
+import OctagoLanding from '../assets/graphics/octago.png'
 
 
 
@@ -15,7 +21,7 @@ const Websites = [
     name: 'Artemie Amari',
     date: 'Sep 2021',
     meta: 'React',
-    tagline: 'Developed a stunning portfolio website.',
+    tagline: 'A portfolio website for Artemie Amari following years or practice. Built using React and many React libraries.',
 
     cs_intro: null,
     cs_description: null,
@@ -41,9 +47,9 @@ const Websites = [
     case_study: false,
 
     name: "Allison Keel",
-    date: 'September 2020',
+    date: 'Aug 2021',
     meta: 'React',
-    tagline: 'Developed a portfolio website for actress Alisson Keel.',
+    tagline: 'Developed a portfolio website for actress Allison Keel.',
 
     cs_intro: null,
     cs_description: null,
@@ -54,17 +60,17 @@ const Websites = [
     category: 'Front End', // Concept, Front End, Full Stack
     progress: 'MVP', // R&D, MVP, Post-MVP, Private Beta, Live
 
-    url_to_img: `${TotallyTennisLanding}`,
+    url_to_img: `${AllieLanding}`,
     url_to_demo: 'https://www.allisonkeel.com/',
     url_to_github: 'https://github.com/yaroAmaro219/Keel',
   },
   {
-    id: 11,
+    id: 10,
     featured: true,
     case_study: false,
 
     name: "Taste Budds",
-    date: 'September 2020',
+    date: 'Sep 2021',
     meta: 'React',
     tagline: 'Developed a website for meet up group Taste Budds.',
 
@@ -77,18 +83,17 @@ const Websites = [
     category: 'Front End', // Concept, Front End, Full Stack
     progress: 'MVP', // R&D, MVP, Post-MVP, Private Beta, Live
 
-    url_to_img: `${TotallyTennisLanding}`,
+    url_to_img: `${TasteBuddsLanding}`,
     url_to_demo: 'https://infallible-shirley-2cb575.netlify.app/',
     url_to_github: 'https://github.com/yaroAmaro219/tastebudds',
-    url_to_instagram: 'hi',
   },
   {
-    id: 11,
+    id: 9,
     featured: true,
     case_study: false,
 
     name: "Totally Tennis",
-    date: 'September 2020',
+    date: 'Sep 2020',
     meta: 'Wix & Sawyer',
     tagline: 'Started a childrens tennis program in the NYC area.',
 
@@ -105,12 +110,12 @@ const Websites = [
     url_to_demo: 'https://www.totallytennis.io/',
   },
   {
-    id: 11,
+    id: 8,
     featured: true,
     case_study: false,
 
     name: "Tennis Coaches of NYC",
-    date: 'August 2020',
+    date: 'Aug 2020',
     meta: 'Ruby on Rails & React',
     tagline: 'The pre-conception to Totally Tennis.',
 
@@ -123,18 +128,18 @@ const Websites = [
     category: 'Full Stack', // Concept, Front End, Full Stack
     progress: 'MVP', // R&D, MVP, Post-MVP, Private Beta, Live
 
-    url_to_img: `${TotallyTennisLanding}`,
+    url_to_img: `${TennisLanding}`,
     url_to_demo: 'https://www.tenniscoachesofnyc.com/',
     url_to_github: 'https://github.com/yaroAmaro219/Tennis-Camp',
 
   },
   {
-    id: 9,
+    id: 7,
     featured: true,
     case_study: false,
 
     name: "GlassTop",
-    date: 'August 2020',
+    date: 'Aug 2020',
     meta: 'React',
     tagline: 'Developed a website intended for sales of converted campers.',
 
@@ -147,12 +152,12 @@ const Websites = [
     category: 'Front End', // Concept, Front End, Full Stack
     progress: 'MVP', // R&D, MVP, Post-MVP, Private Beta, Live
 
-    url_to_img: ``,
+    url_to_img: `${GlassTopLanding}`,
     url_to_demo: 'https://www.glasstop.io/',
     url_to_github: 'https://github.com/yaroAmaro219/GlassTop',
   },
   {
-    id: 9,
+    id: 6,
     featured: true,
     case_study: false,
 
@@ -170,14 +175,14 @@ const Websites = [
     category: 'Front End', // Concept, Front End, Full Stack
     progress: 'MVP', // R&D, MVP, Post-MVP, Private Beta, Live
 
-    url_to_img: ``,
+    url_to_img: `${ConvertedCamperLanding}`,
     url_to_demo: 'https://www.convertedcamper.io/',
     url_to_github: 'https://github.com/yaroAmaro219/ConvertedCamper-frontend',
   },
   {
-    id: 10,
+    id: 5,
     featured: true,
-    case_study: true,
+    case_study: false,
 
     name: "OctaGo",
     date: 'July 2020',
@@ -193,13 +198,13 @@ const Websites = [
     category: 'Full Stack', // Concept, Front End, Full Stack
     progress: 'MVP', // R&D, MVP, Post-MVP, Private Beta, Live
 
-    url_to_img: ``,
-    url_to_demo: '',
+    url_to_img: `${OctagoLanding}`,
+    url_to_github: 'https://github.com/yaroAmaro219/OctaGo',
   },
   {
-    id: 9,
+    id: 4,
     featured: true,
-    case_study: true,
+    case_study: false,
 
     name: "Power Pups",
     date: 'June 2020',
@@ -216,12 +221,12 @@ const Websites = [
     progress: 'MVP', // R&D, MVP, Post-MVP, Private Beta, Live
 
     url_to_img: `${PowerPupsLanding}`,
-    url_to_demo: '',
+    url_to_github: 'https://github.com/yaroAmaro219/Powerpups',
   },
   {
-    id: 9,
+    id: 3,
     featured: true,
-    case_study: true,
+    case_study: false,
 
     name: "CoCare Community",
     date: 'May 2020',
@@ -239,6 +244,7 @@ const Websites = [
 
     url_to_img: `${CoCareLanding}`,
     url_to_demo: 'http://www.cocarecommunity.com/',
+    url_to_github: 'https://github.com/yaroAmaro219/Corona-Care',
   },
 ]
 

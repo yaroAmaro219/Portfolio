@@ -16,7 +16,7 @@ export default function Developer() {
                 <span className="hide-on-mobile"><h5>|</h5></span>
                 <h5>Jr Full Stack Engineer</h5>
                 <span className="hide-on-mobile"><h5>|</h5></span>
-                <h5>Athlete</h5>
+                <h5>Founder</h5>
             </div>
             <div className="landing-welcome smooth">
                 <h1 className="smooth">Welcome.</h1>
