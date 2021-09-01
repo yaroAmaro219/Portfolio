@@ -49,7 +49,7 @@ class About extends Component {
         <Divider />
         <div className="about-why">
           <h3>My "Why"</h3>
-          <p>As a young adult, my own experiences with people and society became the foundation of my career, motivating, inspiring, and grounding my passionate pursuit of acting and modeling in plays. Since then, the thread of my career has been to bring principles of realism, emotion, and nurturing practices to the acting field.</p>
+          <p>As a young adult, my own experiences with people and society became the foundation of my career, motivating, inspiring, and grounding my passionate pursuit of inspiring and impacting society through software development. Since then, the thread of my career has been to bring principles of simplicity, usability, and interactive practices to the software engineering field.</p>
         </div>
         <div className="about-journey smooth">
           <img src={Tennis} alt="Artemie Amari Software Engineer" className="shaded-box" />

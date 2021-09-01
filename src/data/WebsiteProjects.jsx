@@ -70,7 +70,7 @@ const Websites = [
     case_study: false,
 
     name: "Taste Budds",
-    date: 'Sep 2021',
+    date: 'Aug 2021',
     meta: 'React',
     tagline: 'Developed a website for meet up group Taste Budds.',
 
