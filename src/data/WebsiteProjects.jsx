@@ -85,7 +85,7 @@ const Websites = [
 
     url_to_img: `${TasteBuddsLanding}`,
     url_to_demo: 'https://infallible-shirley-2cb575.netlify.app/',
-    url_to_github: 'https://github.com/yaroAmaro219/tastebudds',
+    url_to_github: 'https://github.com/yaroAmaro219/tastebudds-front',
   },
   {
     id: 9,
