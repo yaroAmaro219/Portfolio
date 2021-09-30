@@ -10,8 +10,6 @@ import GlassTopLanding from '../assets/graphics/Glasstop.png'
 import ConvertedCamperLanding from '../assets/graphics/Converted.png'
 import OctagoLanding from '../assets/graphics/octago.png'
 
-
-
 const Websites = [
   {
     id: 12,
@@ -62,7 +60,7 @@ const Websites = [
 
     url_to_img: `${TasteBuddsLanding}`,
     url_to_demo: 'https://www.tastebudsnewyork.com/',
-    url_to_github: 'https://github.com/yaroAmaro219/tastebudds-front',
+    url_to_github: 'https://github.com/yaroAmaro219/Tastebuds',
   },
   {
     id: 10,
