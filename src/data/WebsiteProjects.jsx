@@ -46,6 +46,29 @@ const Websites = [
     featured: true,
     case_study: false,
 
+    name: "Taste Buds",
+    date: 'Aug 2021',
+    meta: 'React',
+    tagline: 'Developed a website for a meet up group Taste Buds.',
+
+    cs_intro: null,
+    cs_description: null,
+    cs_conclusion: null,
+    cs_img_1: null,
+    cs_img_2: null,
+
+    category: 'Front End', // Concept, Front End, Full Stack
+    progress: 'MVP', // R&D, MVP, Post-MVP, Private Beta, Live
+
+    url_to_img: `${TasteBuddsLanding}`,
+    url_to_demo: 'https://www.tastebudsnewyork.com/',
+    url_to_github: 'https://github.com/yaroAmaro219/tastebudds-front',
+  },
+  {
+    id: 10,
+    featured: true,
+    case_study: false,
+
     name: "Allison Keel",
     date: 'Aug 2021',
     meta: 'React',
@@ -64,29 +87,7 @@ const Websites = [
     url_to_demo: 'https://www.allisonkeel.com/',
     url_to_github: 'https://github.com/yaroAmaro219/Keel',
   },
-  {
-    id: 10,
-    featured: true,
-    case_study: false,
 
-    name: "Taste Budds",
-    date: 'Aug 2021',
-    meta: 'React',
-    tagline: 'Developed a website for meet up group Taste Budds.',
-
-    cs_intro: null,
-    cs_description: null,
-    cs_conclusion: null,
-    cs_img_1: null,
-    cs_img_2: null,
-
-    category: 'Front End', // Concept, Front End, Full Stack
-    progress: 'MVP', // R&D, MVP, Post-MVP, Private Beta, Live
-
-    url_to_img: `${TasteBuddsLanding}`,
-    url_to_demo: 'https://infallible-shirley-2cb575.netlify.app/',
-    url_to_github: 'https://github.com/yaroAmaro219/tastebudds-front',
-  },
   {
     id: 9,
     featured: true,
