@@ -205,21 +205,6 @@ export default function DevelopmentIndex(props) {
                       className: 'ui-button-icon',
                     }}
                   />}
-                {project.url_to_github &&
-                  <Button
-                    as='a'
-                    title='View Repo'
-                    href={project.url_to_github}
-                    target='_blank'
-                    rel='noopener'
-                    color='gold'
-                    className='smooth'
-                    icon={{
-                      name: 'github',
-                      size: 'large',
-                      className: 'ui-button-icon',
-                    }}
-                  />}
               </Button.Group>
             </Grid.Column>
           </div>

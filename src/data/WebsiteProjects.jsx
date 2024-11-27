@@ -62,29 +62,6 @@ const Websites = [
     url_to_demo: 'https://www.tastebudsnewyork.com/',
     url_to_github: 'https://github.com/yaroAmaro219/Tastebuds',
   },
-  {
-    id: 10,
-    featured: true,
-    case_study: false,
-
-    name: "Allison Keel",
-    date: 'Aug 2021',
-    meta: 'React',
-    tagline: 'Developed a portfolio website for actress Allison Keel.',
-
-    cs_intro: null,
-    cs_description: null,
-    cs_conclusion: null,
-    cs_img_1: null,
-    cs_img_2: null,
-
-    category: 'Front End', // Concept, Front End, Full Stack
-    progress: 'MVP', // R&D, MVP, Post-MVP, Private Beta, Live
-
-    url_to_img: `${AllieLanding}`,
-    url_to_demo: 'https://www.allisonkeel.com/',
-    url_to_github: 'https://github.com/yaroAmaro219/Keel',
-  },
 
   {
     id: 9,
@@ -222,29 +199,6 @@ const Websites = [
 
     url_to_img: `${OctagoLanding}`,
     url_to_github: 'https://github.com/yaroAmaro219/OctaGo',
-  },
-  {
-    id: 3,
-    featured: true,
-    case_study: false,
-
-    name: "Power Pups",
-    date: 'June 2020',
-    meta: 'Ruby on Rails & React',
-    tagline: 'Participated in hackathon hosted by Data Dog and General Assembly.',
-
-    cs_intro: null,
-    cs_description: null,
-    cs_conclusion: null,
-    cs_img_1: null,
-    cs_img_2: null,
-
-    category: 'Full Stack', // Concept, Front End, Full Stack
-    progress: 'MVP', // R&D, MVP, Post-MVP, Private Beta, Live
-
-    url_to_img: `${PowerPupsLanding}`,
-    url_to_demo: 'http://powerpups.surge.sh/',
-    url_to_github: 'https://github.com/yaroAmaro219/Powerpups',
   },
 ]
 
