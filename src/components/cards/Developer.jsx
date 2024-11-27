@@ -12,18 +12,18 @@ export default function Developer() {
     return (
         <div className="landing-developer">
             <div className="landing-titles">
-                <h5>Software Engineer</h5>
+                <h5>Data Analyst</h5>
                 <span className="hide-on-mobile"><h5>|</h5></span>
                 <h5>Jr Full Stack Engineer</h5>
                 <span className="hide-on-mobile"><h5>|</h5></span>
-                <h5>Founder</h5>
+                <h5>Dog Dad</h5>
             </div>
             <div className="landing-welcome smooth">
                 <h1 className="smooth">Welcome.</h1>
             </div>
            
                 <div className="landing-tagline shaded-text">
-                    <h2>My name's <span className="landing-name">Artemie Amari</span>, but you can call me <span className="landing-name">Tem.</span> I am a Software Engineer that develops beautiful website for individuals and small businesses.</h2>
+                    <h2>My name's <span className="landing-name">Artemie Amari</span>, welcome to my online <span className="landing-name">portfolio.</span> Senior Data Analyst at VaynerMedia, driving insights and strategy for the Mondelez account across the U.S. and Canada. .</h2>
                     <p>Enter my portfolio by clicking on the button below.</p>
                     </div>
                     <div className="ctas">

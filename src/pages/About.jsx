@@ -26,10 +26,10 @@ class About extends Component {
 
     this.state = {
       preimage: `${Artemie}`,
-      title: "Hey there, I'm Tem.",
+      title: "Hey there, I'm Artemie.",
       tagline: "As you've probably noticed, I've developed in many roles in my career.",
       postimage: null,
-      description: "First and foremost, I'm a dedicated software engineer looking to contribute and inspire others through my various roles and projects. I have over three years of experience developing proactively to engage different kinds of audiences; in that time, I've published several websites for different businesses and portfolios.",
+      description: "Currently a Senior Data Analyst at VaynerMedia, driving insights and strategy for the Mondelez account across the U.S. and Canada. Previously at GroupM, specialized in social media buying for Uber Eats and Postmates, optimizing campaigns with data-driven solutions.",
       helper: "",
     }
   }
