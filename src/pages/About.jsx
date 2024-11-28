@@ -16,7 +16,6 @@ import Header from '../components/modules/Header'
 import Hero from '../components/modules/Hero'
 import Timeline from '../components/modules/Timeline'
 import Footer from '../components/modules/Footer'
-
 import Artemie from '../assets/images/download.png'
 import Tennis from '../assets/images/MTenn.JPG'
 
@@ -53,9 +52,9 @@ class About extends Component {
         </div>
         <div className="about-journey smooth">
           <img src={Tennis} alt="Artemie Amari Software Engineer" className="shaded-box" />
-          <h3>My Journey To Software Engineering</h3>
-          <p>Want to learn more about how and why I came to the path of software engineering?</p>
-          <p>Understandable.</p>
+          <h3>My Journey To Data Analytics</h3>
+          <p>Want to learn more about how and why I came to the path of data analytics?</p>
+          <p>Feel free to dive deep and explore my journey below</p>
         </div>
         <Timeline />
         <Footer/>

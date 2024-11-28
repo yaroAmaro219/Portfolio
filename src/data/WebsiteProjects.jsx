@@ -1,14 +1,7 @@
 // Assets
 import TotallyTennisLanding from '../assets/graphics/TT.png'
-import TennisLanding from '../assets/graphics/Tennisnyc.png'
 import PortfolioLanding from '../assets/images/MTenn.JPG'
-import CoCareLanding from '../assets/graphics/Cocare.png'
-import PowerPupsLanding from '../assets/graphics/PowerPups.jpg'
-import TasteBuddsLanding from '../assets/graphics/Tastebudds.png'
-import AllieLanding from '../assets/graphics/Alliek.png'
-import GlassTopLanding from '../assets/graphics/Glasstop.png'
-import ConvertedCamperLanding from '../assets/graphics/Converted.png'
-import OctagoLanding from '../assets/graphics/octago.png'
+
 
 const Websites = [
   {
@@ -37,8 +30,8 @@ const Websites = [
     url_to_github: 'https://github.com/yaroAmaro219/Portfolio',
 
     markdown: true,
-    
   },
+/*
   {
     id: 11,
     featured: true,
@@ -62,7 +55,7 @@ const Websites = [
     url_to_demo: 'https://www.tastebudsnewyork.com/',
     url_to_github: 'https://github.com/yaroAmaro219/Tastebuds',
   },
-
+*/
   {
     id: 9,
     featured: true,
@@ -70,7 +63,7 @@ const Websites = [
 
     name: "Totally Tennis",
     date: 'Sep 2020',
-    meta: 'Wix & Sawyer',
+    meta: 'Wix',
     tagline: 'Started a childrens tennis program in the NYC area.',
 
     cs_intro: null,
@@ -85,6 +78,7 @@ const Websites = [
     url_to_img: `${TotallyTennisLanding}`,
     url_to_demo: 'https://www.totallytennis.io/',
   },
+  /*
   {
     id: 8,
     featured: true,
@@ -109,6 +103,7 @@ const Websites = [
     url_to_github: 'https://github.com/yaroAmaro219/Tennis-Camp',
 
   },
+  
   {
     id: 7,
     featured: true,
@@ -178,6 +173,7 @@ const Websites = [
     url_to_demo: 'http://www.cocarecommunity.com/',
     url_to_github: 'https://github.com/yaroAmaro219/Corona-Care',
   },
+  
   {
     id: 4,
     featured: true,
@@ -199,9 +195,10 @@ const Websites = [
 
     url_to_img: `${OctagoLanding}`,
     url_to_github: 'https://github.com/yaroAmaro219/OctaGo',
-  },
+  },*/
 ]
 
 export {
   Websites
 }
+  

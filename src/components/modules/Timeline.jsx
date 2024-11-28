@@ -18,16 +18,7 @@ export default function Timeline() {
         iconStyle={{ background: '#DDAF72' }}
       >
         <h3 className="vertical-timeline-element-title">College & The Spark Behind My Career</h3>
-        <p>As a senior at Georgia Southern studying Finance; I wanted to expand my coding capabilities so I could apply them to financial models. I decided to do an independent study where I was intriduced to web scrapping and different data visualization libraries for Python. </p>
-      </VerticalTimelineElement>
-
-      <VerticalTimelineElement
-        className="vertical-timeline-element--work"
-        date="May 2018"
-        iconStyle={{ background: '#DDAF72' }}
-      >
-        <h3 className="vertical-timeline-element-title">My First Website</h3>
-        <p>I created my first basic webpage using Flask thanks to the help and guidance of a mentor. From this initial development I realized I wanted to pursue this coding full time and increase my skillset.</p>
+        <p>As a senior at Georgia Southern studying Finance; I wanted to expand my coding capabilities so I could apply them to financial models. I decided to do an independent study where I was introduced to web scrapping and different data visualization libraries for Python. </p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -49,11 +40,19 @@ export default function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="sep 2021"
+        date="mar 2022"
         iconStyle={{ background: '#DDAF72' }}
       >
-        <h3 className="vertical-timeline-element-title">The Future</h3>
-        <p>I plan on joining a company or team where I can grow as a full stack software engineer and help work towards a mission that benefits society.</p>
+        <h3 className="vertical-timeline-element-title">Social Buying for Uber Eats at GroupM</h3>
+        <p>Launched paid social activations across 6 platforms for UberEATS and Postmates with a 7 figure monthly budget.</p>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="apr 2024"
+        iconStyle={{ background: '#DDAF72' }}
+      >
+        <h3 className="vertical-timeline-element-title">Data Analytics at VaynerMedia</h3>
+        <p>Today I dive into data on a daily basis, transforming raw numbers into meaningful insights that drive smart marketing decisions and help power the success of Mondelez.</p>
       </VerticalTimelineElement>
 
     </VerticalTimeline >

@@ -23,7 +23,7 @@ export default function Developer() {
             </div>
            
                 <div className="landing-tagline shaded-text">
-                    <h2>My name's <span className="landing-name">Artemie Amari</span>, welcome to my online <span className="landing-name">portfolio.</span> Senior Data Analyst at VaynerMedia, driving insights and strategy for the Mondelez account across the U.S. and Canada. .</h2>
+                    <h2>My name's <span className="landing-name">Artemie Amari</span>, welcome to my online <span className="landing-name">portfolio.</span> I'm currently a Senior Data Analyst at VaynerMedia where I collect, clean, and interpret data to uncover insights and support informed decision-making on the Mondelez across the U.S. and Canada.</h2>
                     <p>Enter my portfolio by clicking on the button below.</p>
                     </div>
                     <div className="ctas">
