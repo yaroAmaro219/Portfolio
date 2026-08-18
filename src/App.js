@@ -4,6 +4,7 @@ import React from 'react'
 // React Router
 import {
   Route,
+  Redirect,
   withRouter,
   Switch,
 } from 'react-router-dom';
@@ -17,7 +18,6 @@ import {
 // Pages
 import Landing from './pages/Landing'
 import Development from './pages/Development'
-import Design from './pages/Design'
 import About from './pages/About'
 import Contact from './pages/Contact'
 
@@ -36,7 +36,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={Landing} />
             <Route exact path="/engineering" component={Development} />
-            <Route exact path="/design" component={Design} />
+            <Redirect exact from="/design" to="/engineering" />
             <Route exact path="/about" component={About} />
             <Route exact path="/contact" component={Contact} />
           </Switch>
