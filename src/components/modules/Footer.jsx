@@ -20,6 +20,7 @@ export default function Footer() {
         <Link to="/engineering" className="smooth">Development</Link>
         <Link to="/design" className="smooth">Design</Link>
         <Link to="/about" className="smooth">About</Link>
+        <a href="/Artemie-Amari-Resume.pdf" target="_blank" rel="noopener noreferrer" className="smooth">Résumé</a>
         <Link to="/contact" className="smooth">Contact</Link>
       </div>
       <div className="footer-info">

@@ -1,57 +1,48 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { Link } from 'react-router-dom'
 
-import Header from '../components/modules/Header'
-import Footer from '../components/modules/Footer'
-import Hero from '../components/modules/Hero'
+export default function Contact() {
+  return (
+    <main className="portfolio-home portfolio-contact-page">
+      <nav className="portfolio-nav" aria-label="Primary navigation">
+        <Link to="/" className="portfolio-wordmark">Artemie Amari</Link>
+        <div className="portfolio-nav-links">
+          <Link to="/engineering">Work</Link>
+          <Link to="/about">About</Link>
+          <a href="/Artemie-Amari-Resume.pdf" target="_blank" rel="noopener noreferrer">Résumé</a>
+          <Link to="/contact" className="portfolio-nav-cta" aria-current="page">Contact</Link>
+        </div>
+      </nav>
 
-import Artemie from '../assets/images/download.png'
-import { withRouter } from 'react-router'
-
-class Contact extends Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      preimage: `${Artemie}`,
-      title: "Get In Touch",
-      postimage: null,
-      tagline: "Want to get in touch?",
-      description: "I've disabled my contact form due to bot spam, so please email me directly or visit the links below!",
-      helper: "",
-    }
-  }
-
-  render() {
-    return (
-      <div className="page static-page contact-page">
-        <Header />
-        <Hero
-          className="contact-hero"
-          preimage={this.state.preimage}
-          title={this.state.title}
-          tagline={this.state.tagline}
-          postimage={this.state.postimage}
-          description={this.state.description}
-          helper={this.state.helper}
-        />
-         <div className="body contact-body">        
-          <a href="mailto:yaroamari@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" stroke="white" height="135" width="135" viewBox="0 0 24 24"><path d="M24 21h-24v-18h24v18zm-23-16.477v15.477h22v-15.477l-10.999 10-11.001-10zm21.089-.523h-20.176l10.088 9.171 10.088-9.171z"></path></svg></a>
-          
-          <a
-            href="https://www.linkedin.com/in/artemieamari/"
-            target="_blank"
-                      rel="noopener noreferrer"
-                     
-          >
-            <svg xmlns="http://www.w3.org/2000/svg"  class='social-nav'>
-              <path d="M0 0v24h24v-24h-24zm8 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.397-2.586 7-2.777 7 2.476v6.759z"></path>
-            </svg>
+      <section className="contact-shell">
+        <div className="contact-intro">
+          <span className="portfolio-eyebrow">Get in touch</span>
+          <h1>Let’s build something clear, useful, and measurable.</h1>
+          <p>I’m always open to thoughtful conversations about analytics leadership, measurement strategy, product building, and ambitious teams.</p>
+        </div>
+        <div className="contact-options">
+          <a href="mailto:yaroamari@gmail.com" className="contact-option">
+            <span>Email</span>
+            <strong>yaroamari@gmail.com</strong>
+            <i aria-hidden="true">↗</i>
           </a>
-          </div>
-         <Footer />
-      </div>
-    )
-  }
-}
+          <a href="https://www.linkedin.com/in/artemieamari/" target="_blank" rel="noopener noreferrer" className="contact-option">
+            <span>LinkedIn</span>
+            <strong>Connect professionally</strong>
+            <i aria-hidden="true">↗</i>
+          </a>
+          <a href="/Artemie-Amari-Resume.pdf" target="_blank" rel="noopener noreferrer" className="contact-option">
+            <span>Résumé</span>
+            <strong>View experience and skills</strong>
+            <i aria-hidden="true">↗</i>
+          </a>
+        </div>
+      </section>
 
-export default withRouter(Contact)
+      <footer className="portfolio-home-footer">
+        <p>Based in New York · Usually replies within two business days.</p>
+        <Link to="/engineering">View selected work →</Link>
+      </footer>
+    </main>
+  )
+}

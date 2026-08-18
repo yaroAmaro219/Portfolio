@@ -9,6 +9,7 @@ export default function Developer() {
         <div className="portfolio-nav-links">
           <Link to="/engineering">Work</Link>
           <Link to="/about">About</Link>
+          <a href="/Artemie-Amari-Resume.pdf" target="_blank" rel="noopener noreferrer">Résumé</a>
           <Link to="/contact" className="portfolio-nav-cta">Contact</Link>
         </div>
       </nav>
@@ -68,6 +69,30 @@ export default function Developer() {
             <li>Automated weekly reporting</li>
             <li>Decision-ready insights</li>
           </ul>
+        </div>
+      </section>
+
+      <section className="portfolio-results" aria-labelledby="results-title">
+        <div className="portfolio-results-heading">
+          <span className="portfolio-eyebrow">Selected impact</span>
+          <h2 id="results-title">Work measured by what changed.</h2>
+          <Link to="/engineering">See the stories behind the numbers →</Link>
+        </div>
+        <div className="portfolio-results-grid">
+          <div><strong>35%</strong><span>fewer data errors through automated QA</span></div>
+          <div><strong>17%</strong><span>increase in quality leads after attribution improvements</span></div>
+          <div><strong>21%</strong><span>lift in first-time users from creative experimentation</span></div>
+        </div>
+      </section>
+
+      <section className="portfolio-contact-strip portfolio-contact-strip-home">
+        <div>
+          <span className="portfolio-eyebrow">Let’s work together</span>
+          <h2>Need clearer measurement—or a product that makes it useful?</h2>
+        </div>
+        <div className="portfolio-actions">
+          <a className="portfolio-primary" href="mailto:yaroamari@gmail.com">Email me</a>
+          <a className="portfolio-secondary" href="/Artemie-Amari-Resume.pdf" target="_blank" rel="noopener noreferrer">View résumé</a>
         </div>
       </section>
 

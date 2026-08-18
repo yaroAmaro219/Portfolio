@@ -50,6 +50,7 @@ export default class Header extends Component {
               <Link to="/engineering" className="smooth">Engineering</Link>
               <Link to="/design" className="smooth">Design</Link>
               <Link to="/about" className="smooth">About</Link>
+              <a href="/Artemie-Amari-Resume.pdf" target="_blank" rel="noopener noreferrer" className="smooth">Résumé</a>
               <Link to="/contact" className="menu-cta smooth">Contact</Link>
             </div>
             <div className="mobile-nav hide-on-desktop">
@@ -79,6 +80,7 @@ export default class Header extends Component {
                   <Link to="/engineering" className="smooth">Engineering</Link>
                   <Link to="/design" className="smooth">Design</Link>
                   <Link to="/about" className="smooth">About</Link>
+                  <a href="/Artemie-Amari-Resume.pdf" target="_blank" rel="noopener noreferrer" className="smooth">Résumé</a>
                   <Link to="/contact" className="menu-cta smooth">Contact</Link>
                 </div>
               }
