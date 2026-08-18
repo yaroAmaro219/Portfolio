@@ -1,11 +1,5 @@
 import React, { Component } from 'react';
 
-// React Router
-import {
-  Link,
-  withRouter
-} from 'react-router-dom'
-
 // React Semantic UI
 import {
   Divider
@@ -26,9 +20,9 @@ class About extends Component {
     this.state = {
       preimage: `${Artemie}`,
       title: "Hey there, I'm Artemie.",
-      tagline: "As you've probably noticed, I've developed in many roles in my career.",
+      tagline: "My career sits at the intersection of analytics leadership, marketing, and product building.",
       postimage: null,
-      description: "Currently a Senior Data Analyst at VaynerMedia, driving insights and strategy for the Mondelez account across the U.S. and Canada. Previously at GroupM, specialized in social media buying for Uber Eats and Postmates, optimizing campaigns with data-driven solutions.",
+      description: "Currently an Analytics Manager, leading measurement and performance thinking across complex marketing programs. I am also the founder of Momentum Analytics, a simpler intelligence workspace designed to turn fragmented marketing data into confident decisions.",
       helper: "",
     }
   }
@@ -48,7 +42,7 @@ class About extends Component {
         <Divider />
         <div className="about-why">
           <h3>My "Why"</h3>
-          <p>As a young adult, my own experiences with people and society became the foundation of my career, motivating, inspiring, and grounding my passionate pursuit of inspiring and impacting society through software development. Since then, the thread of my career has been to bring principles of simplicity, usability, and interactive practices to the software engineering field.</p>
+          <p>I believe analytics is most valuable when it makes the next decision clearer. My work focuses on translating complex performance signals into shared understanding, practical priorities, and tools that teams can use without needing to become analysts themselves.</p>
         </div>
         <div className="about-journey smooth">
           <img src={Tennis} alt="Artemie Amari Software Engineer" className="shaded-box" />
